@@ -101,6 +101,8 @@ public class MainActivity extends AppCompatActivity {
         if (false) {
             message += "HTTP端口:17246 \n";
         }
+
+        message += "项目地址:  https://github.com/afx919/AfxPrefaceTool/tree/master \n";
         message += "V1.0.0";
         AlertDialog dialog = new AlertDialog.Builder(MainActivity.this)
                 .setIcon(R.mipmap.ic_launcher)
